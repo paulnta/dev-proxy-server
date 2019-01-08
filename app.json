@@ -1,0 +1,10 @@
+{
+  "name": "Proxy server",
+  "description": "A very flexible Node.js proxy",
+  "repository": "https://github.com/heig-vd-tweb/proxy-server.git",
+  "keywords": [
+    "node",
+    "express",
+    "proxy"
+  ]
+}
