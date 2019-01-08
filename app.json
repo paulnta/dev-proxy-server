@@ -1,7 +1,17 @@
 {
-  "name": "Proxy server",
-  "description": "A very flexible Node.js proxy",
-  "repository": "https://github.com/heig-vd-tweb/proxy-server.git",
+  "name": "Dev Proxy Server",
+  "description": "A proxy server to bypass IP based rate limiting during development when all developers share the same IP address.",
+  "repository": "https://github.com/heig-vd-tweb/dev-proxy-server.git",
+  "env": {
+    "PROXY_TARGET": {
+      "description": "Target API host to proxy to",
+      "required": true
+    },
+    "DEBUG": {
+      "description": "If set to true, will display logs for all requests.",
+      "value": "false"
+    }
+  },
   "keywords": [
     "node",
     "express",
