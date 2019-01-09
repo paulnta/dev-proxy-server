@@ -1,6 +1,6 @@
 {
   "name": "Dev Proxy Server",
-  "description": "A proxy server to bypass IP based rate limiting during development when all developers share the same IP address.",
+  "description": "A proxy server to bypass IP based rate limiting during development when multiple developers are connected to the same network.",
   "repository": "https://github.com/heig-vd-tweb/dev-proxy-server.git",
   "env": {
     "PROXY_TARGET": {
