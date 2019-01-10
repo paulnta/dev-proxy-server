@@ -4,7 +4,7 @@ Network rate limiting is used to limit the amount of traffic on a network. This 
 
 This issue can be solved by using this dev-proxy-server which is an express app that proxies requests to the target API host of your choice.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/paulnta/dev-proxy-server/tree/master&env[PROXY_TARGET]=https://api.themoviedb.org)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heig-vd-tweb/dev-proxy-server/tree/master&env[PROXY_TARGET]=https://api.themoviedb.org)
 
 ## Usage
 
