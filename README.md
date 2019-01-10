@@ -14,4 +14,4 @@ For example to proxy the PunkAPI, you would do this `PROXY_TARGET=https://api.pu
 3. Once the app has started, you can now send request to your API through your own proxy. Requests sent to the API will be using the heroku server IP address.  
 If choosed to proxy the Punk API, you can validate that [https://api.punkapi.com/v2/beers](https://api.punkapi.com/v2/beers) returns the same results as [https://\<app-name>.herokuapp.com/v2/beers](https://<app-name>.herokuapp.com/v2/beers).
 
-It's recommended to use this kind of setup for **development only** and when your are facing the issue described in the introducion. Note that this method tends to reduce the performance of your requests.
+It's recommended to use this kind of setup for **development only** and when your are facing the issue described in the introduction. Note that this method tends to reduce the performance of your requests.
